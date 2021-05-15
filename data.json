@@ -24,6 +24,11 @@
             "path": "sketches/01.jpg",
             "title": "test",
             "description": "etc etc"
+        },
+        {
+            "path": "sketches/02.jpg",
+            "title": "test 2",
+            "description": "etc etc"
         }
     ]
 }
