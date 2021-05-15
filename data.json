@@ -29,6 +29,11 @@
             "path": "sketches/02.jpg",
             "title": "test 2",
             "description": "etc etc"
+        },
+        {
+            "path": "traditional/gonzaga.jpg",
+            "title": "luiz gonzaga",
+            "description": "etc etc"
         }
     ]
 }
