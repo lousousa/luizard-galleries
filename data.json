@@ -19,6 +19,11 @@
             "path": "digital/04.jpg",
             "title": "manu & bel",
             "description": "manu & bel"
+        },
+        {
+            "path": "sketches/01.jpg",
+            "title": "test",
+            "description": "etc etc"
         }
     ]
 }
