@@ -34,6 +34,11 @@
             "path": "traditional/gonzaga.jpg",
             "title": "luiz gonzaga",
             "description": "etc etc"
+        },
+        {
+            "path": "digital/03.jpg",
+            "title": "manu",
+            "description": "etc etc"
         }
     ]
 }
