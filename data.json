@@ -1,52 +1,12 @@
 {
     "meta": [
-        {
-            "path": "digital/b27.jpg",
-            "title": "b27",
-            "description": "etc etc",
-            "category": "digital"
-        },
-        {
-            "path": "digital/b28.jpg",
-            "title": "b28",
-            "description": "etc etc",
-            "category": "digital"
-        },
-        {
-            "path": "digital/b38.jpg",
-            "title": "b38",
-            "description": "etc etc",
-            "category": "digital"
-        },
-        {
-            "path": "digital/04.jpg",
-            "title": "manu & bel",
-            "description": "manu & bel",
-            "category": "digital"
-        },
-        {
-            "path": "sketches/01.jpg",
-            "title": "test",
-            "description": "etc etc",
-            "category": "sketches"
-        },
-        {
-            "path": "sketches/02.jpg",
-            "title": "test 2",
-            "description": "etc etc",
-            "category": "sketches"
-        },
-        {
-            "path": "traditional/gonzaga.jpg",
-            "title": "luiz gonzaga",
-            "description": "etc etc",
-            "category": "traditional"
-        },
-        {
-            "path": "digital/03.jpg",
-            "title": "manu",
-            "description": "etc etc",
-            "category": "digital"
-        }
+        { "id": 1, "path": "digital/b27.jpg", "category": "digital", "title": "b27", "description": "etc etc" },
+        { "id": 2, "path": "digital/b28.jpg", "category": "digital", "title": "b28", "description": "etc etc" },
+        { "id": 3, "path": "digital/b38.jpg", "category": "digital", "title": "b38", "description": "etc etc" },
+        { "id": 4, "path": "digital/04.jpg", "category": "digital", "title": "manu & bel", "description": "manu & bel" },
+        { "id": 5, "path": "sketches/01.jpg", "category": "sketches", "title": "test", "description": "etc etc" },
+        { "id": 6, "path": "sketches/02.jpg", "category": "sketches", "title": "test 2", "description": "etc etc" },
+        { "id": 7, "path": "traditional/gonzaga.jpg", "category": "traditional", "title": "luiz gonzaga", "description": "etc etc" },
+        { "id": 8, "path": "digital/03.jpg", "category": "digital", "title": "manu", "description": "etc etc" }
     ]
 }

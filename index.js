@@ -17,6 +17,7 @@ const typeDefs = `
 
     type Query {
         arts (category: String): [Art]
+        art (id: ID!): Art
     }
 
 `
@@ -51,7 +52,7 @@ data.meta.forEach((file, idx) => {
         sharp(`${ filesPath }/${ file.path }`).resize(200, 200).toFile(`./thumbs/${ idx + 1 }`, (err) => {
             if (err) console.log(err)
             else arts.push({
-                id: idx + 1,
+                id: file.id,
                 file: asset.file,
                 thumbnail: fs.readFileSync(`./thumbs/${ idx + 1 }`).toString('base64'),
                 category: file.category,
@@ -68,6 +69,9 @@ const resolvers = {
     Query: {
         arts(_, args) {
             return args.category ? arts.filter(art => art.category === args.category) : arts
+        },
+        art(_, args) {
+            return arts.find(art => art.id == args.id)
         }
     }
 }
