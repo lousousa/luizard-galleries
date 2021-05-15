@@ -20,5 +20,5 @@ npm install
 
 ## Project serve
 ```
-npm start
+npm run serve
 ```
