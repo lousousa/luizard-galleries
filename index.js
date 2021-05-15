@@ -16,7 +16,7 @@ const typeDefs = `
     }
 
     type Query {
-        arts: [Art]
+        arts (category: String): [Art]
     }
 
 `
@@ -66,8 +66,8 @@ data.meta.forEach((file, idx) => {
 
 const resolvers = {
     Query: {
-        arts() {
-            return arts
+        arts(_, args) {
+            return args.category ? arts.filter(art => art.category === args.category) : arts
         }
     }
 }
