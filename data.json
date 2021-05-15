@@ -3,42 +3,50 @@
         {
             "path": "digital/b27.jpg",
             "title": "b27",
-            "description": "etc etc"
+            "description": "etc etc",
+            "category": "digital"
         },
         {
             "path": "digital/b28.jpg",
             "title": "b28",
-            "description": "etc etc"
+            "description": "etc etc",
+            "category": "digital"
         },
         {
             "path": "digital/b38.jpg",
             "title": "b38",
-            "description": "etc etc"
+            "description": "etc etc",
+            "category": "digital"
         },
         {
             "path": "digital/04.jpg",
             "title": "manu & bel",
-            "description": "manu & bel"
+            "description": "manu & bel",
+            "category": "digital"
         },
         {
             "path": "sketches/01.jpg",
             "title": "test",
-            "description": "etc etc"
+            "description": "etc etc",
+            "category": "sketches"
         },
         {
             "path": "sketches/02.jpg",
             "title": "test 2",
-            "description": "etc etc"
+            "description": "etc etc",
+            "category": "sketches"
         },
         {
             "path": "traditional/gonzaga.jpg",
             "title": "luiz gonzaga",
-            "description": "etc etc"
+            "description": "etc etc",
+            "category": "traditional"
         },
         {
             "path": "digital/03.jpg",
             "title": "manu",
-            "description": "etc etc"
+            "description": "etc etc",
+            "category": "digital"
         }
     ]
 }
