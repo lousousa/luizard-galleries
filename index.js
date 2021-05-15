@@ -60,4 +60,4 @@ const resolvers = {
 }
 
 const server = new ApolloServer({ typeDefs, resolvers })
-server.listen()
+server.listen({ port: 4006 })
