@@ -7,7 +7,7 @@ A server for the Luizard's artworks, based on GraphQL and local files.
 + Node
 + GraphQL
 
-## How update the gallery?
+## How to update the gallery?
 1) Add source image files to root directory **files** (or any sub-directory of it)
 2) Describe the meta data for the files in the root JSON file **data.json**
 
